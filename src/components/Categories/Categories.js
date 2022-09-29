@@ -23,7 +23,7 @@ const Categories = () => {
 
   return (
     <div className="container ">
-      <div className="row gx-5">
+      <div className="row gx-5 mb-5">
         <div className="col-md-9 col-lg-9 col-sm-12">
           <div className="mt-4">
             <h2>Select Your today's GYM activities</h2>

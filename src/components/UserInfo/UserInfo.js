@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import logo from "../../Images/info.jpg";
 import "./UserInfo.css";
 import TimeRequired from "../TimeRequired/TimeRequired";
+import Taost from "../Taost/Taost";
 
 const UserInfo = (props) => {
   console.log(props);
@@ -61,11 +62,11 @@ const UserInfo = (props) => {
         </div>
       </div>
 
-      <h4 className="my-3">Add A Break</h4>
+      <h4 className="my-3 ms-4">Add A Break</h4>
 
       
 
-      <div className="d-flex align-items-center justify-content-evenly bg-secondary rounded-2 p-2 ">
+      <div className="d-flex align-items-center justify-content-evenly bg-secondary rounded-2 mx-2 p-2">
         <button className="btn btn-light text-primary border-1 rounded-circle p-2" onClick={() => AddToDb(button1)}>{button1}s</button>
         <button className="btn btn-light text-primary border-1 rounded-circle p-2" onClick={() => AddToDb(button2)}>{button2}s</button>
         <button className="btn btn-light text-primary border-1 rounded-circle p-2" onClick={() => AddToDb(button3)}>{button3}s</button>
@@ -73,7 +74,7 @@ const UserInfo = (props) => {
         <button className="btn btn-light text-primary border-1 rounded-circle p-2" onClick={() => AddToDb(button5)}>{button5}s</button>
       </div>
 
-      <h4 className="my-3 ">Exercise Details</h4>
+      <h4 className="my-3 ms-4">Exercise Details</h4>
 
       <div className="bg-light d-flex justify-content-evenly align-items-center p-2 rounded-3 my-2">
       <h6>Exercise time</h6>
@@ -82,7 +83,7 @@ const UserInfo = (props) => {
 
       <TimeRequired click={click}></TimeRequired>
 
-      {/* <button>Activity Complete</button> */}
+      <Taost></Taost>
 
       
 
