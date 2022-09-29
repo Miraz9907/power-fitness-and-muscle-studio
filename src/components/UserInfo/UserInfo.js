@@ -7,7 +7,7 @@ import TimeRequired from "../TimeRequired/TimeRequired";
 import Taost from "../Taost/Taost";
 
 const UserInfo = (props) => {
-  console.log(props);
+  // console.log(props);
   const [click, setClick] = useState([]);
   const { requiredTime } = props;
   let gymTime = 0;
