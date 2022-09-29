@@ -5,7 +5,7 @@ import "./Categories.css";
 
 const Categories = () => {
   const [categories, setCategories] = useState([]);
-//   const [requiredTime, setRequiredTime] = useState([]);
+  const [requiredTime, setRequiredTime] = useState([]);
 
 
   useEffect(() => {
@@ -15,11 +15,11 @@ const Categories = () => {
   }, []);
   // console.log(categories);
 
-//   const handleAddToList = (category) =>{
-//     console.log(category);
-//     const newList = [...requiredTime, category];
-//     setRequiredTime(newList);
-//   }
+  const handleAddToList = (category) =>{
+    console.log(category);
+    const newList = [...requiredTime, category];
+    setRequiredTime(newList);
+  }
 
   return (
     <div className="container ">
@@ -30,18 +30,14 @@ const Categories = () => {
             <div className="row g-3 mt-2">
               {categories.map((category) => (
                 <Category key={category.id} category={category} 
-                // handleAddToList = {handleAddToList}
-                >
-
+                handleAddToList = {handleAddToList}>
                 </Category>
               ))}
             </div>
           </div>
         </div>
         <div className="col-3 border gx-3 ">
-          <UserInfo 
-        //   requiredTime ={requiredTime}
-          ></UserInfo>
+          <UserInfo requiredTime ={requiredTime}></UserInfo>
         </div>
       </div>
     </div>

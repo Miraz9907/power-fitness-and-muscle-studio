@@ -14,7 +14,7 @@ const Category = (props) => {
                 <p className='card-text'>{about.slice(0,120) + '...'}</p>
                 <h6 className='card-title'>For Age :{age}</h6>
                 <h6 className='card-title'>Time required :{time}</h6>
-                {/* <button className='btn btn-primary w-100' onClick={() =>props.handleAddToList(props.category)} >Add to cart</button> */}
+                <button className='btn btn-primary w-100' onClick={() =>props.handleAddToList(props.category)} >Add to cart</button>
             </div>
             </div>
         </div>
