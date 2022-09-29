@@ -7,7 +7,7 @@ const Header = () => {
         <div>
             <div className='d-flex align-items-center bg-light ps-4 pt-4'>
                 <img src={logo} alt=""  className='logo-img' />
-                <h2 className='mt-2 text-primary'>Power Fitness and Muscle Studio</h2>
+                <h2 className='mt-2 text-info'>Power Fitness and Muscle Studio</h2>
                 
             </div>
         </div>

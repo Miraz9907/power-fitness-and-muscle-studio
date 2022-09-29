@@ -9,7 +9,7 @@ const Taost = () => {
     });
     return (
         <div>
-             <button className="btn btn-info w-100 mt-4 p-3 rounded-4 mx-2" onClick={notify}>Activity Completed!</button>
+             <button className="btn btn-info w-75 mt-4 p-3 rounded-4 mx-5" onClick={notify}>Activity Completed!</button>
         <ToastContainer />
         </div>
     );

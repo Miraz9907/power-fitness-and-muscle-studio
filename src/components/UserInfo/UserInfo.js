@@ -66,7 +66,7 @@ const UserInfo = (props) => {
 
       
 
-      <div className="d-flex align-items-center justify-content-evenly bg-secondary rounded-2 mx-2 p-2">
+      <div className="d-flex align-items-center justify-content-evenly bg-secondary rounded-2 mx-4 p-2">
         <button className="btn btn-light text-primary border-1 rounded-circle p-2" onClick={() => AddToLocal(btn1)}>{btn1}s</button>
         <button className="btn btn-light text-primary border-1 rounded-circle p-2" onClick={() => AddToLocal(btn2)}>{btn2}s</button>
         <button className="btn btn-light text-primary border-1 rounded-circle p-2" onClick={() => AddToLocal(btn3)}>{btn3}s</button>
