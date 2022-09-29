@@ -24,8 +24,7 @@ const Categories = () => {
   return (
     <div className="container ">
       <div className="row gx-5">
-        {/* <div className="col-md-9 col-lg-9 col-sm-12"> */}
-        <div className="col-9">
+        <div className="col-md-9 col-lg-9 col-sm-12">
           <div className="mt-4">
             <h2>Select Your today's GYM activities</h2>
             <div className="row g-3 mt-2">
@@ -37,8 +36,7 @@ const Categories = () => {
             </div>
           </div>
         </div>
-        <div className="col-3 gx-3 ">
-        {/* <div className="col-md-3 col-lg-3 col-sm-12 gx-3 "> */}
+        <div className="col-md-3 col-lg-3 col-sm-12 gx-3 ">
           <UserInfo requiredTime ={requiredTime}></UserInfo>
         </div>
       </div>
